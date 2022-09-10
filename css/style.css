@@ -1,0 +1,896 @@
+:root{
+    --color-blue:#4D77DD;
+    --color-pink:hwb(0 38% 3%);
+    --color-white:#ffffff;
+    --font-poppins:'Poppins', sans-serif;
+    --font-roboto:'Roboto', sans-serif;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+body{
+    background: #F5F5F5;
+}
+p{
+    margin: 0;
+}
+/* All common CSS */
+
+
+/* Navbar Start */
+#navbar{
+    margin-left: 200px;
+}
+nav .nav-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    color: #1C1C1C;
+    padding: 0 20px !important;
+}
+
+nav .icons a{
+    font-family: var(--font-poppins);
+    color: #1C1C1C;
+    font-size: 25px;
+    margin: 50px 10px;
+    position: relative;
+}
+
+nav .icons .number::after{
+    position: absolute;
+    content: "3";
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    background-color: var(--color-pink);
+    color: #ffffff;
+    width: 18px;
+    height: 18px;
+    right: -5px;
+    bottom: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .icons .two::after{
+    content: "4";
+}
+
+/* Navbar End */
+
+/* Search Start */
+
+#search .box1{
+    width: 312px;
+    height: 55px;
+    background: #4D77DD;
+    border-radius: 5px;
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+    display: flex;
+    align-items: center;
+}
+
+#search .icon{
+    font-size: 20px;
+}
+#search .para{
+    margin-left: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+
+#search .box2{
+    margin-left: 24px;
+    height: 55px;
+    width: 536px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+#search .box2 .part_1 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2B2B2B;
+}
+
+#search .box2 .part_1 i {
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+#search .box2 .part_2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B3B3B3;
+    margin-left: 49px;
+    position: relative;
+}
+
+#search .box2 .part_2::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 26px;
+    background: #D9D9D9;
+    left: -24px;
+    bottom: 0px;
+}
+
+
+#search .box3 {
+    margin-left: 29px;
+}
+#search .box3 a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FEFEFE;
+    padding: 15px 16px 16px 17px;
+    background-color: var(--color-blue);
+    border-radius: 5px;
+}
+
+#search .box4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 89px;
+}
+
+/* Search End */
+
+/* Banner Start */
+
+.banner{
+    margin-top: 12px;
+}
+
+.banner .info{
+    width: 312px;
+    height: 572px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+.banner ul{
+    padding: 0;
+    margin: 0;
+}
+
+.banner .info ul li{
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.banner ul li a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.banner ul li.border_none{
+    border-bottom: none;
+}
+
+/* .banner .banner_image .image{
+    position: relative;
+}
+
+.banner .banner_image .image .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+.banner .overlay{
+    background: url(../images/Rectangle\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 984px;
+    height: 572px;
+    margin-left: 24px;
+}
+
+.banner .overlay .text{
+    width: 373px;
+    height: 261px;
+    margin-top: 156px;
+    margin-left: 39px;
+    margin-right: 572px;
+    margin-bottom: 155px;
+}
+
+.banner .overlay .text h6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #F76262;
+}
+.banner .overlay .text h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.banner .overlay .text h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #252525;
+}
+.banner .overlay .text a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background-color: var(--color-pink);
+    width: 109px;
+    height: 32px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Banner End */
+
+/* Sec 01 Start */
+#sec01{
+    margin-top: 52px;
+    margin-bottom: 50px;
+}
+.sec1{
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.sec1 .box1{
+    width: 312px;
+    height: 116px;
+    font-size: 22px;
+    position: relative;
+}
+
+.sec1 .box1::after{
+    position: absolute;
+    content: "";
+    background-color: #EBEBEB;
+    background-color: red;
+    width: 1px;
+    height: 44px;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sec1 .box1.after_none::after{
+    display: none;
+}
+
+.sec1 .box1 i{
+    color: var(--color-pink);
+    margin-top: 36px;
+    margin-left: 31px;
+    margin-right: 18px;
+}
+
+.sec1 .box1 .like{
+    margin-right: 7px;
+}
+
+.sec1 .box1 h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    color: #222222;
+    display: inline-block;
+}
+
+.sec1 .box1 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #222222;
+    margin-top: 13px;
+    margin-left: 79px;
+}
+
+/* Sec 01 End */
+
+
+
+/* Sec 02 Start */
+
+.sec2 .row{
+    gap: 24px;
+}
+
+.sec2 .box1{
+    background: url(../images/Rectangle\ 13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 280px;
+}
+
+.sec2 .box2{
+    background: url(../images/Rectangle\ 14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 280px;
+}
+
+.sec2 .box1 .text{
+    width: 243px;
+    height: 126px;
+    margin: 77px 370px 77px 35px;
+}
+
+.sec2 .box1 .text h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #111111;
+}
+
+.sec2 .box1 .text span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #111111;
+}
+
+.sec2 .box1 .text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #111111;
+    margin-top: 31px;
+}
+
+/* Sec 02 End */
+
+
+/* Sec 03 Start */
+#sec03{
+    margin-top: 80px;
+}
+#sec03 h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #0A0A0A;
+    margin-bottom: 30px;
+}
+
+.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec3 .box1{
+    width: 245px;
+    height: 445px;
+}
+
+.sec3 .box1 .icons i{
+    font-size: 14px;
+    color: #FFCD3C;
+}
+
+.sec3 .box1 p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #222222;
+    margin-top: 11px;
+    margin-bottom: 9px;
+}
+
+.sec3 .box1 span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #252525;
+}
+
+.sec3 .box1 del{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #8F8F8F;
+}
+
+.sec3 .box1 .link a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+    width: 109px;
+    height: 32px;
+    background-color: var(--color-pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 9px;
+    transition: all linear .2s;
+}
+
+.sec3 .box1 .link a:hover{
+    background-color: var(--color-blue);
+}
+
+
+/* Sec 03 End */
+
+
+/* Sec 04 Start */
+
+#sec04{
+    margin-top: 80px;
+}
+
+.sec4 .row{
+    gap: 24px;
+}
+
+.sec4 .box{
+    background: url(../images/Rectangle\ 20.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 872px;
+    height: 280px;
+}
+
+.sec4 .box .text{
+    width: 246px;
+    height: 126px;
+    margin-top: 77px;
+    margin-right: 594px;
+    margin-bottom: 77px;
+    margin-left: 35px;
+}
+
+.sec4 .box .text h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #111111;
+}
+
+.sec4 .box .text span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #111111;
+}
+
+
+.sec4 .box .text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #111111;
+    margin-top: 31px;
+}
+
+
+.sec4 .box2{
+    background: url(../images/Rectangle\ 21.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 424px;
+    height: 280px;
+}
+
+
+.sec4 .box2 .text{
+    width: 246px;
+    height: 126px;
+    margin-top: 77px;
+    margin-right: 594px;
+    margin-bottom: 77px;
+    margin-left: 35px;
+}
+
+.sec4 .box2 .text h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #111111;
+}
+
+.sec4 .box2 .text span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #111111;
+}
+
+
+.sec4 .box2 .text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #111111;
+    margin-top: 31px;
+}
+
+
+/* Sec 04 End */
+
+/* Sec 05 Same as Sec 04 */
+
+
+/* Sec 06 Start */
+
+
+#sec06{
+    margin-top: 80px;
+}
+
+.sec6 .row{
+    gap: 24px;
+}
+
+.sec6 .box{
+    background: url(../images/Rectangle\ 22.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 424px;
+    height: 280px;
+}
+
+.sec6 .box .text{
+    width: 246px;
+    height: 126px;
+    margin-top: 77px;
+    margin-right: 594px;
+    margin-bottom: 77px;
+    margin-left: 35px;
+}
+
+.sec6 .box .text h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #111111;
+}
+
+.sec6 .box .text span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #111111;
+}
+
+
+.sec6 .box .text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #111111;
+    margin-top: 31px;
+}
+
+
+.sec6 .box2{
+    background: url(../images/Rectangle\ 23.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 872px;
+    height: 280px;
+}
+
+
+.sec6 .box2 .text{
+    width: 246px;
+    height: 126px;
+    margin-top: 77px;
+    margin-right: 594px;
+    margin-bottom: 77px;
+    margin-left: 35px;
+}
+
+.sec6 .box2 .text h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #111111;
+}
+
+.sec6 .box2 .text span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #111111;
+}
+
+
+.sec6 .box2 .text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #111111;
+    margin-top: 31px;
+}
+
+/* Sec 06 End */
+
+/* Sec 07 Same as Sec 04 */
+
+/* Sec 08 Start */
+
+#sec08{
+    margin-top: 87px;
+    margin-bottom: 86px;
+}
+
+/* Sec 08 End */
+
+
+
+/* Sec 09 Start */
+
+.sec9 .row{
+    gap: 24px;
+}
+
+.sec9 .box1{
+    background: url(../images/Rectangle\ 24.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 280px;
+}
+
+.sec9 .box2{
+    background: url(../images/sec09.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 280px;
+}
+
+.sec9 .box1 .text{
+    width: 243px;
+    height: 126px;
+    margin: 77px 370px 77px 35px;
+}
+
+.sec9 .box1 .text h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #111111;
+}
+
+.sec9 .box1 .text span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #111111;
+}
+
+.sec9 .box1 .text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #111111;
+    margin-top: 31px;
+}
+
+/* Sec 02 End */
+
+/* Sec 10 Start */
+
+#sec10{
+    background: url(../images/Subtract.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    /* height: 151px; */
+}
+
+.sec10 .bar{
+    width: 759px;
+    height: 51px;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    margin-top: 49px;
+    margin-bottom: 51px;
+}
+
+.sec10 .subscribe a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding: 15px 16px 16px 17px;
+    background-color: var(--color-blue);
+    border-radius: 5px;
+}
+
+.sec10 .icons i{
+    color: var(--color-white);
+    font-size: 16px;
+    padding: 0 7px;
+}
+
+
+
+/* Sec 10 End */
+
+
+/* Sec 11 Start */
+
+.sec11 .box{
+    margin-top: 56px;
+    margin-bottom: 45px;
+}
+.sec11 .box h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #222222;
+    margin-bottom: 40px;
+}
+
+.sec11 .box ul{
+    margin: 0;
+    padding: 0;
+}
+.sec11 .box ul li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #4A4A4A;
+    margin-bottom: 12px;
+}
+
+.sec11 .box ul li a i{
+    padding-right: 10px;
+}
+
+.sec11 .box img{
+    margin-bottom: 18px;
+}
+
+/* Sec 11 End */
+
+
+/* Footer Start */
+footer span{
+    padding: 22px 0;
+}
+footer .images img{
+    padding: 0 10px ;
+}
+
+/* Footer End */
